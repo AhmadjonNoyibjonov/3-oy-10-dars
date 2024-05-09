@@ -40,6 +40,12 @@
     display: flex;
     gap: 33px;
     margin-right: 595px;
+
+    transition: all 0.5s;
+}
+
+.head1 span a:hover{
+    color:#6A983C; ;
 }
 
 .head1 span p {
@@ -63,12 +69,12 @@
     text-decoration: none;
     transition: all 1s;
 }
-
+/* 
 .head1 span a:hover {
     background-color: aqua;
     border-radius: 5px;
     transform: translate(0px, -5px);
-}
+} */
 
 .head1 ul {
     display: flex;
@@ -191,7 +197,6 @@
     align-items: center;
     padding-left: 45px;
     background: #F9F9F9;
-
 }
 
 .nav1 div {
@@ -217,9 +222,8 @@
 }
 
 .nav1 div select:hover {
-    background-color:#6A983C;
+    color:#6A983C;
     border-radius: 5px;
-    transform: rotate(360deg);
 }
 
 
@@ -244,29 +248,12 @@
     text-align: left;
     color: #A9A9A9;
     cursor: pointer;
+    transition: all 1s;
 }
 
-
-.nav2 div .p2 {
-    font-family: Open Sans;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16.34px;
-    text-align: left;
-    color: #A9A9A9;
-    cursor: pointer;
+.nav2 div .p1:hover{
+    color: #6A983C;
 }
-
-.nav2 div .p3 {
-    font-family: Open Sans;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16.34px;
-    text-align: left;
-    color: #151515;
-    cursor: pointer;
-}   
-
 
 .nav3 {
     display: flex;

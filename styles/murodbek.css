@@ -6,21 +6,17 @@ section{
 section .container{
     display: flex;
     justify-content: space-between;
-    
-
 }
 .box{
- display: flex;
- justify-content: space-between;
- align-items: center;
- margin-bottom:64px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:64px;
 }
 .card{
- align-items: center;
- display: flex;
- gap: 10px;
-
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .card h4{
     width: 31px;
@@ -32,13 +28,9 @@ section .container{
     color:#A9A9A9;
     cursor: pointer;
     transition: all 0.5s;
-
-  
-
 }
 .card h4:hover{
-  background-color: aqua;
-  color: rgb(52, 52, 48);
+    color: #6A983C;
 }
 .card h3{
     width: 7px;
@@ -50,28 +42,27 @@ section .container{
     color:#151515;
     cursor: pointer;
     transition: all 0.5s;
-    
 }
 .card h3:hover{
- color:#6A983C;
-
-
+    color:#6A983C;
 }
 .card1 button{
- padding: 12px 38px 12px 16px;
-border-radius: 12px;
-border: none;
-background-color: #6A983C;
-color:#FFFFFF;
-transition: all 1s;
-cursor: pointer;
-transform: rotate(360deg);
-
+    padding: 12px 16px 12px 16px;
+    border-radius: 12px;
+    border: none;
+    background-color: #6A983C;
+    color:#FFFFFF;
+    transition: all 1s;
+    cursor: pointer;
+    transform: rotate(360deg);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22.5px;
+    text-align: left;
 }
 .card1 button:hover{
- background-color: aqua;
- color:black;
-
+    background-color:#4e801d;
 }
 .card2{
     align-items: center;
@@ -106,8 +97,6 @@ transform: rotate(360deg);
 
 }
 
-
-
 .urls{
  text-decoration: none;
  list-style: none;
@@ -115,7 +104,6 @@ transform: rotate(360deg);
 }
 .urls a{
   text-decoration: none;
-
 }
 .urls b{
     font-family: 'Open Sans';
@@ -124,11 +112,7 @@ transform: rotate(360deg);
     cursor: pointer;
     transition: all 0.5s;
 }
-.urls b:hover{
- background-color:aqua;
- color:rgba(31, 31, 30, 0.951);
 
-}
 .urls a{
     color: #6dd057;
     font-family: Open Sans;
@@ -139,8 +123,7 @@ transform: rotate(360deg);
     transition: all 0.5s; 
 }
 .urls a:hover{
-    background-color:antiquewhite;
-    color: #1c1c1a;
+    color: #2b631e;
 }
 .urls li{
     margin-top: 15px;
