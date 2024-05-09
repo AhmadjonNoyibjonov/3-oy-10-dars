@@ -21,18 +21,26 @@ transition-duration: 2s;
 
 }
 
+.footer .fruits a{
+    border:none;
+}
+
 .footer .fruits a:hover{
 background-color:black;
 color:white;
 cursor: pointer;
-border:none;
+
+}
+
+.footer .meats a{
+border:none;    
 }
 
 .footer .meats a:hover{
     background-color:black;
     color:white;
     cursor: pointer;
-    border:none;
+
 }
 
 .fruits{
