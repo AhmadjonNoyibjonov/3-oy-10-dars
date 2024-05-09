@@ -10,3 +10,11 @@
     margin: 0 auto;
 }
 
+.common {
+    margin: 50px auto;
+    width: Hug (1,262px)px;
+    height: Hug (2,585px)px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px #00000026;
+    border: 1px solid rgba(0, 0, 0, 30%);
+}
