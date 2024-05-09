@@ -1,6 +1,11 @@
 .Product{
 padding-bottom: 20px;
+
 }
+
+.footer {
+    margin-left: 45px;
+} 
 
 
 .footer a{
@@ -26,8 +31,8 @@ transition-duration: 2s;
 }
 
 .footer .fruits a:hover{
-background-color:black;
-color:white;
+background-color:rgb(189, 181, 181);
+color: rgb(189, 181, 181);
 cursor: pointer;
 
 }
@@ -37,8 +42,8 @@ cursor: pointer;
 }
 
 .footer .meats a:hover{
-    background-color:black;
-    color:white;
+    background-color:rgb(189, 181, 181);
+    color: rgb(189, 181, 181);
     cursor: pointer;
 
 }
@@ -54,4 +59,13 @@ cursor: pointer;
 display: flex;
 gap: 16px;
 padding-top: 8px;
+}
+
+.footer button {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background-color: rgb(189, 181, 181);
 }
