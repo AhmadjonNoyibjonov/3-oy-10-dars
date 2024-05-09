@@ -21,7 +21,7 @@ transition-duration: 2s;
 
 }
 
-.footer .fruits a{
+.footer .fruits a button {
     border:none;
 }
 
@@ -32,8 +32,8 @@ cursor: pointer;
 
 }
 
-.footer .meats a{
-border:none;    
+.footer .meats a button {
+    border:none;    
 }
 
 .footer .meats a:hover{
