@@ -5,8 +5,350 @@
 }
 
 .container{
-    max-width: 1170px;
+    max-width: 1262px;
     width: 100%;
     margin: 0 auto;
 }
 
+.common {
+    margin: 50px auto;
+    width: 1262px;
+    height: 2600px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px #00000026;
+    border: 1px solid rgba(0, 0, 0, 30%);
+}
+
+.heads {
+    width: 1260px;
+    height: 178px;
+    display:flex;
+    flex-direction: column;
+    padding: 0px 45px;
+}
+
+.heads .head1 {
+    width: 1170px;
+    height: 48px;
+    display: flex;
+    align-items:center;
+}
+
+.head1 span {
+    width: 375px;
+    height: 16px;
+    display: flex;
+    gap: 33px;
+    margin-right: 595px;
+
+    transition: all 0.5s;
+}
+
+.head1 span a:hover{
+    color:#6A983C; ;
+}
+
+.head1 span p {
+    width: 70px;
+    height: 16px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: #6A983C;
+}
+
+.head1 span a {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color:#151515;
+    text-decoration: none;
+    transition: all 1s;
+}
+/* 
+.head1 span a:hover {
+    background-color: aqua;
+    border-radius: 5px;
+    transform: translate(0px, -5px);
+} */
+
+.head1 ul {
+    display: flex;
+    width: 197px;
+    height: 16px;
+    gap: 38px;
+}
+
+.head1 ul li {
+    list-style: none;
+}
+
+.head1 ul li:nth-child(1) {
+    width: 25px;
+    height: 16px;
+}
+
+.head1 ul li:nth-child(2) {
+    width: 52px;
+    height: 16px;
+}
+
+.head1 ul li:nth-child(3) {
+    width: 44px;
+    height: 16px;
+}
+ 
+.head1 ul li a {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: #6A983C;
+}
+
+.heads .head2 {
+    width: 1170px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.head2 .logo {
+    width: 177px;
+    height: 50px;
+    margin-right: 247px;
+}
+
+.head2 .lebel {
+    display: flex;
+    width: 500px;
+    height: 42px; 
+    align-items:center; 
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+    padding: 10px 16px 9px;
+    margin-right: 154px;
+}
+
+.head2 .lebel select {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 24px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22.5px;
+    text-align: left;
+    color: #151515;
+    background-color: transparent;
+}
+
+.head2 .lebel input {
+    width: 262px;
+    height: 19px;
+    border: none;
+    border-left: 1px solid #D1D1D1;
+    padding-left: 24px;
+    outline: none;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #A9A9A9;
+    margin-right: 12px;
+    background-color: transparent;
+}   
+
+.head2 .lebel button {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    border:none;
+    background-color:transparent;
+}
+
+.head2 span {
+    width: 88px;
+    height: 31px;
+    display: flex;
+    gap: 40px;
+}
+
+.head2 span button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.nav1 {
+    width: 1260px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+    background: #F9F9F9;
+}
+
+.nav1 div {
+    width: 1049px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1 div select {
+    border: none;
+    outline: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: left;
+    color: #151515;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 1s;
+}
+
+.nav1 div select:hover {
+    color:#6A983C;
+    border-radius: 5px;
+}
+
+
+.nav2 {
+    width: 1260px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+}
+
+.nav2 div {
+    display: flex;
+    gap: 8px;
+}
+
+.nav2 div .p1 {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: #A9A9A9;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.nav2 div .p1:hover{
+    color: #6A983C;
+}
+
+.nav3 {
+    display: flex;
+    align-items: center;
+    padding: 8px 45px;
+}
+
+.nav3 div {
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    height: 48px;
+}
+
+.nav3 div h1 {
+    width: 335px;
+    height: 48px;
+    margin-right: 560px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: #151515;
+}   
+
+.nav3 div .icons {
+    width: 275px;
+    height: 18px;
+    display: flex;
+    gap: 24px;
+}
+
+.nav3 div .icons span {
+    display: flex;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.nav3 div .icons span:hover {
+    border-radius: 5px;
+    background-color: rgb(124, 95, 43);
+    transform: scale(1.2, 1.2);
+}
+
+.nav3 div .icons span:nth-child(1) {
+    display: flex;
+    gap: 4px;
+    width: 73px;
+    height: 16px;
+}
+
+.nav3 div .icons span:nth-child(1) p {
+    width: 53px;
+    height: 16px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: #151515;
+}
+
+.nav3 div .icons span:nth-child(2) {
+    display: flex;
+    gap: 4px;
+    width: 73px;
+    height: 16px;
+}
+
+.nav3 div .icons span:nth-child(2) p {
+    width: 48px;
+    height: 16px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: #A9A9A9;
+}
+
+.nav3 div .icons span:nth-child(3) {
+    display: flex;
+    gap: 4px;
+    width: 86px;
+    height: 16px;
+}
+
+.nav3 div .icons span:nth-child(3) p {
+    width: 50px;
+    height: 16px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: #A9A9A9;
+}

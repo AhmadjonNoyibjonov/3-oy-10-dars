@@ -1,59 +1,46 @@
 .Product{
 padding-bottom: 20px;
+
 }
 
+.footer {
+    margin-left: 45px;
+} 
+
+.footer h1{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+}
 
 .footer a{
-text-decoration: none;
-width: Hug (58px)px;
-height: Hug (26px)px;
-padding: 4px 10px 4px 10px;
-/* gap: 10px; */
-border-radius: 12px;
-opacity: 0px;
-color:black;
-font-size: 12px;
-font-weight: 600;
-line-height: 18px;
-text-align: left;
-background: #F5F5F5;
-transition-duration: 2s;
-
+    text-decoration: none;
+    width: 58px;
+    height: 26px;
+    padding: 4px 10px 4px 10px;
+    /* gap: 10px; */
+    border-radius: 12px;
+    opacity: 0px;
+    color:black;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    background: #F5F5F5;
+    margin-right: 16px;
+    transition: all 0.5s;
 }
 
-.footer .fruits a{
-    border:none;
+.footer a:hover{
+    color: white;
+    background-color:#6A983C;
 }
 
-.footer .fruits a:hover{
-background-color:black;
-color:white;
-cursor: pointer;
-
-}
-
-.footer .meats a{
-border:none;    
-}
-
-.footer .meats a:hover{
-    background-color:black;
-    color:white;
-    cursor: pointer;
-
-}
-
-.fruits{
-    border:none;
-    display: flex;
-    gap: 16px;
-    padding-bottom: 8px;
-}
-
-.meats {
-display: flex;
-gap: 16px;
-padding-top: 8px;
+.footer .fruits{
+    margin-bottom: 16px;
 }
 
 .fruits a{
